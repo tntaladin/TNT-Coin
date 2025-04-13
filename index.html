@@ -29,6 +29,17 @@
       width: 150px;
       height: auto;
       margin-bottom: 20px;
+      animation: rotateLogo 6s linear infinite; /* logo animation */
+    }
+
+    /* Rotation keyframes */
+    @keyframes rotateLogo {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
     }
 
     /* Main heading */
@@ -94,9 +105,8 @@
     <li>💠 Ready for listing and rapid growth</li>
   </ul>
 
-  <!-- Call to action button with updated link to Dexscreener -->
-  <a href="https://dexscreener.com/solana/mntMeakQGVbXaqbAMnhJ9UdfnSbY4W5puX18Kv3Dqs5" class="cta" target="_blank" rel="noopener noreferrer">Join the Revolution</a>
+  <!-- Call to action button -->
+  <a href="https://dexscreener.com/solana/mntMeakQGVbXaqbAMnhJ9UdfnSbY4W5puX18Kv3Dqs5" class="cta">Join the Revolution</a>
 
 </body>
 </html>
-
